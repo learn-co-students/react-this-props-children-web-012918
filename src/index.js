@@ -11,7 +11,11 @@ export default class MovieBrowser extends React.Component {
 
     return (
       <div className="movie-browser">
-        l
+        {childrenWithExtraProp}
+      </div>
+    );
+  }
+}
 
 export default class SomeComponent extends React.Component {
   render() {
